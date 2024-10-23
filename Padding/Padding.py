@@ -59,7 +59,7 @@ kernel = np.array([[1, 0, 1],
                    [1, 0, 3]])
 
 # Apply convolution with padding (padding size = 1)
-padding_size = 1
+padding_size = 3
 output_matrix = convolution_with_padding(image, kernel, padding_size)
 
 # Print the output matrix
