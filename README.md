@@ -18,6 +18,8 @@ This script detects and recognizes license plates from a given image. It process
 
 ## Installing Dependencies
 
+First you need to navigate to the according directory, for example ```cd Padding```. Then you should create a virtual environment ``` python3 -m venv venv ``` and activate it ```source venv/bin/activate```.
+
 Before running any of the scripts, you need to install the required dependencies. Each script has a `requirements.txt` file that lists the necessary libraries. To install the dependencies, navigate to the directory where the `requirements.txt` file is located and run the following command:
 
 ```bash
