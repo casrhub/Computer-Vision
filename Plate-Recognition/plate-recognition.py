@@ -6,7 +6,7 @@ import imutils
 
 
 # Read the image
-img = cv2.imread("car.png")  # replace with your image path
+img = cv2.imread("car2.png")  # replace with your image path
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.show()
