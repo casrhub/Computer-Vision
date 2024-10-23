@@ -6,7 +6,7 @@ import imutils
 
 
 # Read the image
-img = cv2.imread("car2.png")  # replace with your image path
+img = cv2.imread("car.png")  # replace with your image path
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.show()
@@ -62,6 +62,7 @@ plt.show()
 (x1, y1) = (np.min(x), np.min(y))
 (x2, y2) = (np.max(x), np.max(y))
 cropped_image = gray[x1:x2+1, y1:y2+1]
+
 
 plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 plt.title('Cropped Number Plate')
